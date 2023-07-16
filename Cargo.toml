@@ -6,11 +6,10 @@ rust-version = "1.65"
 authors = ["Karim Agha <karim.dev@gmail.com>"]
 keywords = ["networking", "p2p", "gossip"]
 description = "General-purpose infection-style p2p gossiping protocol"
-
+license = "MIT"
 
 [lib]
 doctest = false
-
 
 [dependencies]
 tracing = "0.1"
