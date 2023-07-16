@@ -1,6 +1,6 @@
 [package]
 name = "hypar"
-version = "1.0.2"
+version = "1.0.3"
 edition = "2021"
 rust-version = "1.65"
 authors = ["Karim Agha <karim.dev@gmail.com>"]

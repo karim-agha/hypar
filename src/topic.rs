@@ -1004,7 +1004,7 @@ impl TopicInner {
     // new information learned during this shuffle.
     self.passive_peers = local_peer_ids
       .into_iter()
-      .chain(new_peers.into_iter())
+      .chain(new_peers)
       .choose_multiple(
         // random std sample
         &mut thread_rng(),
