@@ -43,7 +43,7 @@ In your `Cargo.toml` add:
 
 ```toml
 [dependencies]
-anoma-network = "1.0"
+hypar = "1.0"
 ```
 
 ## Common use cases
