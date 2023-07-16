@@ -1,12 +1,15 @@
 [package]
 name = "hypar"
-version = "1.0.1"
+version = "1.0.2"
 edition = "2021"
 rust-version = "1.65"
 authors = ["Karim Agha <karim.dev@gmail.com>"]
 keywords = ["networking", "p2p", "gossip"]
 description = "General-purpose infection-style p2p gossiping protocol"
+repository = "https://github.com/karim-agha/hypar"
 license = "MIT"
+
+
 
 [lib]
 doctest = false
