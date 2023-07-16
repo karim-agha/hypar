@@ -1,4 +1,6 @@
-# Anoma P2P Gossip Network
+# Hypar P2P Gossip
+
+_Originally developed as part of the [anoma node](https://github.com/karim-agha/anoma-alpha) codebase. Extracted into a separate crate._
 
 This crate implements a general-purpose infection-style gossiping protocol that can be used to form peer to peer topologies and disseminate arbitary data between nodes. This protocol is highly scalable up to thousands of nodes within one topic. 
 
